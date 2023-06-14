@@ -66,6 +66,12 @@
 || 4. HashMap(Map m)  | 4. TreeMap(SortedMap map)  | 4. Hashtable(Map m)  |
 || 5. HashMap(int initialCapacity, float loadFactor, boolean accessOrder):   | 5. TreeMap(Collection c, Comparator comparator)  | -  |
 
+| HashMap         | HashTable     | ConcurrentHashMap |
+| -------------   | ------------- | -------------     |
+| Not Thread Safe | Thread Safe   | Thread Safe       |
+|                 |  Single Object Lock | 16 Object Lock (Default Cunccurency Level = 16 |
+|                 |               | basically object is divided into 16 segments  |
+
 
 
 
