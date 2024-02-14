@@ -37,7 +37,7 @@
 | Collection | ArraList  | LinkedList | Vector | 
 | ------------- | ------------- | ------------- | ------------- | 
 | **Default Size** | 10  | N/A  | 10  | 
-| **Default Increment** | +10 ((Current capacity*3/2)+1)  | N/A  | +10  | 
+| **Default Increment** | +10 ((Current capacity*3/2)+1)  | N/A  | +10 (Current capacity * 2)  | 
 | **Constructors** | 1. ArrayList()                    | 1. LinkedList()             | 1. Vector()                      | 
 |                 | 2. ArrayList(Collection c)        | 2. LinkedList(Collection c) | 2. Vector(int initialCapacity)   | 
 |                 | 3. ArrayList(int initialCapacity) | -                        | 3. Vector(int capacityIncrement) | 
